@@ -11,10 +11,18 @@ public class Rectangle {
         height = h;
     }
 
+    public double getHeight() {
+        return height;
+    }
+    
     public void setWidth(Double w){
         width = w;
     }
 
+    public double getWidth() {
+        return width;
+    }
+    
     public double calcArea(){
         return (width * height);
     }
