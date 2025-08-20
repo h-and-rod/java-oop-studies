@@ -30,4 +30,11 @@ public class Rectangle {
     public double calcPerimeter(){
         return (2 * (width + height));
     }
+    
+    public double calcDiagonal(){
+        double diagonal;
+        diagonal = Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2));
+        
+        return diagonal;
+    }
 }
