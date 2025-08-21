@@ -1,4 +1,17 @@
-/introduction/prjRectangleExample_1/build/
-/introduction/prjRectangleExample_2/nbproject/private/
-/introduction/prjRectangleExample_2/build/
-/introduction/prjCircleExercise/nbproject/private/
+# NetBeans project files
+nbproject/private/
+
+# Build outputs
+build/
+dist/
+*.class
+
+# Libraries
+lib/*.jar
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
