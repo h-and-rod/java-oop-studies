@@ -1,27 +1,46 @@
 # Java OOP Studies
 
-A collection of small Java projects and exercises demonstrating **Object-Oriented Programming (OOP)** concepts.  
-Created as part of my learning process.
+This repository contains my studies and practice projects developed while learning **Object-Oriented Programming (OOP)** in Java.
+Each project focuses on a specific concept or exercise and follows the structure of a typical Java/NetBeans project.
 
-## 🚀 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/java-oop-examples.git
-````
+## Repository Structure
 
-2. Navigate to the project folder:
+The repository is organized into individual project folders, each containing source code, configuration, and build files:
 
-   ```bash
-   cd java-oop-examples
-   ```
-3. Compile and run the desired example:
+```
+java-oop-studies/        # Root directory of the repository, containing all Java OOP study projects.
+│
+├── introduction/         # Theme
+│
+├── prjExample_1/         # First example project.
+│   ├── src/              # Source code of the project.
+│   ├── lib/              # External libraries used by the project (JARs, dependencies).
+│   ├── nbproject/        # NetBeans IDE configuration files.
+│   ├── test/             # Unit or integration tests for the project.
+│   ├── build.xml         # Ant build file defining how to compile and package the project.
+│   └── manifest.mf       # Java manifest file (contains metadata for JAR packaging).
+│
+├── prjExample_2/         # Second example project, with the same structure as prjExample_1.
+│   ├── src/
+│   ├── lib/
+│   ├── nbproject/
+│   ├── test/
+│   ├── build.xml
+│   └── manifest.mf
+│
+├── prjExercise/          # Exercise project, typically for practicing concepts learned.
+│   ├── src/
+│   ├── lib/
+│   ├── nbproject/
+│   ├── test/
+│   ├── build.xml
+│   └── manifest.mf
+│
+└── README.md             # Repository documentation, with general instructions and information about the projects.
+```
 
-   ```bash
-   javac src/Retangulo.java
-   java -cp src Retangulo
-   ```
+## Learning Objectives
 
-## 📚 Concepts Covered
-
-1. Introduction to Objects, Classes, and Methods.
-
+* Practice Java fundamentals and OOP principles.
+* Apply concepts such as **classes, objects, attributes, and methods** through exercises.
+* Build a foundation for more advanced OOP concepts like inheritance, polymorphism, encapsulation, and abstraction.
