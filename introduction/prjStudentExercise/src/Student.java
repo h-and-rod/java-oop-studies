@@ -58,5 +58,21 @@ public class Student {
 
         return average;
     }
+    
+    public double calcPrjAverage() {
+        double average;
+    
+        average = 0.25 * ((Tst1Gd + Tst2Gd)/2);
+    
+        return average;
+    }
+    
+    public double calcFinalAverage() {
+        double finalAverage;
+    
+        finalAverage = calcPrjAverage() + calcTstAverage();
+    
+        return finalAverage;
+    }
 
 }
