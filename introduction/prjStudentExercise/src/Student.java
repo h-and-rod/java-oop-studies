@@ -76,12 +76,7 @@ public class Student {
     }
     
     public boolean isApproved(){
-        if(calcFinalAverage() >= 5.0){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return (calcFinalAverage() >= 5);
     }
 
 }
