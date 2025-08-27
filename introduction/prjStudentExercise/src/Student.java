@@ -62,7 +62,7 @@ public class Student {
     public double calcPrjAverage() {
         double average;
     
-        average = 0.25 * ((Tst1Gd + Tst2Gd)/2);
+        average = 0.25 * ((Prj1Gd + Prj2Gd)/2);
     
         return average;
     }
@@ -73,6 +73,15 @@ public class Student {
         finalAverage = calcPrjAverage() + calcTstAverage();
     
         return finalAverage;
+    }
+    
+    public boolean isApproved(){
+        if(calcFinalAverage() >= 5.0){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }
